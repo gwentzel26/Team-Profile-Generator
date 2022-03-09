@@ -1,0 +1,81 @@
+* {
+    font-family: 'Sora', sans-serif;
+}
+body {
+    /* background: linear-gradient(rgb(224, 224, 224), rgb(136, 135, 135)); */
+    background: linear-gradient(rgb(255, 246, 122), rgb(228, 210, 153));
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 300px;
+}
+header {
+    height: 160px;
+    background: linear-gradient(coral, rgb(231, 96, 46)) ;
+    margin: -10px;
+    margin-top: -40px;
+    
+}
+
+h1 {
+    font-size: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card {
+    
+    width: 240px;
+    height: 320px;
+    border: 3px solid black;
+    border-radius: 50px;
+    text-align: center;
+    
+    background-color: aliceblue;
+    align-items: center;
+    margin: 180px;
+    /* display: inline-flex; */
+}
+
+.top {
+    height: 80px;
+    margin-top: -20px;
+    border-bottom: 3px dashed darkgoldenrod;
+    background-color: lightblue;
+    border-radius: 50px;
+}
+
+.bottom {
+    background-color: antiquewhite;
+    height: 217px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    border-radius: 50px;
+   
+
+    
+}
+
+.bottom ul li {
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.bottom ul li a {
+    text-decoration: none;
+    color: black;
+}
