@@ -29,9 +29,10 @@ h2 {
 }
 
 .container {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
 }
 .card {
     
@@ -42,8 +43,8 @@ h2 {
     text-align: center;
     
     background-color: aliceblue;
-    align-items: center;
-    margin: 180px;
+    /* align-items: center; */
+    margin: 80px;
     /* display: inline-flex; */
 }
 
@@ -70,9 +71,11 @@ h2 {
 .bottom ul li {
     list-style-type: none;
     text-align: left;
+    /* padding-left: -15px; */
     padding-bottom: 20px;
+    margin-left: -15px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .bottom ul li a {
